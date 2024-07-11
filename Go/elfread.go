@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go <elf-file>")
+		fmt.Println("Usage: go run elfread.go <elf-file>")
 		os.Exit(1)
 	}
 
